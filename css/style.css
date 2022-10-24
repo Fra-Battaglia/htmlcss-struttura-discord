@@ -8,9 +8,14 @@
 	max-width: 1200px;
 	margin: 0 auto;
 	height: 100%;
+	border: 1px dashed black;
 }
 
 .row {
+	width: 100%;
+}
+
+.col{
 	width: 100%;
 }
 
@@ -27,7 +32,9 @@
 	padding: 5px 0;
 }
 
-header{
+/* Header */
+
+header {
 	background-color: #ADD8E6;
 	height: 50px;
 }
@@ -40,7 +47,26 @@ nav {
 	text-align: center;
 }
 
-nav .row{
+nav .row {
 	background-color: #DAA520;
 	display: flex;
+}
+
+/* Big Img */
+
+.big-img {
+	background-color: #00008B;
+	height: 400px;
+	display: flex;
+	align-items: center;
+}
+
+.big-img .container {
+	width: 100%;
+	max-width: 900px;
+	height: calc(100% - 50px);
+}
+
+.big-img-content {
+	background-color: #EE82EE;
 }
